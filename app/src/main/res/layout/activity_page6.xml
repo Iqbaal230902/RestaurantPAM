@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".page6">
+
+    <RelativeLayout
+        android:layout_height="wrap_content"
+        android:layout_width="wrap_content">
+
+        <ImageView
+            android:id="@+id/myImageView"
+            android:layout_width="470dp"
+            android:layout_height="230dp"
+            android:src="@drawable/burgerking" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burger"
+            android:layout_marginTop="200dp"
+            android:layout_marginLeft="30dp"
+            android:textColor="@color/white"
+            android:textStyle="bold"
+            android:textSize="20dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="25dp"
+        android:layout_marginLeft="30dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Burger"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:textSize="15dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/font_color"
+            android:textStyle="bold"
+            android:textSize="15dp"
+            android:layout_marginLeft="150dp"
+            android:text="Price: Rp 78.000,00"/>
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="30dp"
+        android:layout_marginRight="30dp"
+        android:justificationMode="inter_word"
+        android:textSize="15dp"
+        android:textStyle="bold"
+        android:textColor="@color/font_color"
+        android:text="Hidangan yang terdiri dari sepotong daging (biasanya daging sapi atau ayam) yang diiris tipis dan dimasak, kemudian ditempatkan di dalam sepotong roti bundar. Burger sering disajikan dengan berbagai tambahan seperti selada, tomat, keju, saus, dan bahan tambahan lain sesuai selera. Ini adalah hidangan cepat saji yang sangat populer di seluruh dunia."/>
+
+    <Button
+        android:id="@+id/order_id_button"
+        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:layout_marginLeft="60dp"
+        android:backgroundTint="@color/button_color"
+        app:cornerRadius="0dp"
+        android:layout_marginTop="15dp"
+        app:strokeColor="@color/stroke_color"
+        app:strokeWidth="1dp"
+        android:text="Order Now" />
+
+    <Button
+        android:id="@+id/back_id_button"
+        android:layout_height="wrap_content"
+        android:layout_width="290dp"
+        android:layout_marginLeft="60dp"
+        android:layout_marginTop="5dp"
+        android:backgroundTint="@color/button_color"
+        app:cornerRadius="0dp"
+        app:strokeColor="@color/stroke_color"
+        app:strokeWidth="1dp"
+        android:text="Back" />
+
+</LinearLayout>

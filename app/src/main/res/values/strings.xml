@@ -1,0 +1,19 @@
+<resources>
+    <string name="app_name">pizzarestoran</string>
+    <string name="store">Store</string>
+    <string name="name_hint">Nama</string>
+    <string name="name">Name</string>
+    <string name="lokasi_text">Location\n</string>
+    <string name="lokasi">Cihampelas</string>
+    <string name="map_text">Find on Map</string>
+    <string-array name="store_location">
+        <item>Cihampelas</item>
+        <item>Cibiru</item>
+        <item>Cipadung</item>
+        <item>Cileunyi</item>
+        <item>Cimahi</item>
+        <item>Cibeunying</item>
+        <item>Cicaheum</item>
+        <item>Cilengkrang</item>
+    </string-array>
+</resources>
